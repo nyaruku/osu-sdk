@@ -10,7 +10,9 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>osu</RootNamespace>
         <AssemblyName>osu!framework</AssemblyName>
-        <TargetFramework>net10.0</TargetFramework>
+        <TargetFramework>net10.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+        <EnableWindowsTargeting>true</EnableWindowsTargeting>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
         <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
